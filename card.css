@@ -4,10 +4,71 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 
+header{
+    margin: auto;
+    background-color: white;
+    width: 900px;
+    height: 100px;
+    position: sticky;
+}
+
+.header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.header h1::first-line{
+    font-size: 2rem;
+}
+
+.header h1{
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.header li{
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    margin: auto;
+    background-color: white;
+    width: 900px;
+    height: 100px;
+    position: sticky;
+    margin-top: 5px;
+}
+
+.footer h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h2::first-letter{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+body{
+    background-color: black;
+}
 .container{
     width: 800px;
-    height: 1000px;
+    height: auto;
+    background-color: grey;
     margin: auto;
+    margin-top: 5px;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +78,7 @@
 .card{
     background-color:rgba(255, 0, 0,0.3);
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     margin-bottom: 0;
     height: 250px;
     width: 200px;
